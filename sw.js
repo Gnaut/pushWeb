@@ -15,7 +15,7 @@ self.addEventListener('push', function(e) {
         ]
     };
     e.waitUntil(
-        sečf-ServiceWorkerRegistration.showNotification('Živio', options)
+        self.registration.showNotification('Živio', options)
     );
 
-})
+});
