@@ -3,6 +3,7 @@ self.addEventListener('push', function(e) {
         body: 'Odpadejo vadbe - Coronavirus',
         icon: 'images/studionautkrogi.png',
         vibrate: [100, 50, 100],
+        badge: 'images/studionautkrogi.png',
         data:{
             dateOfArrival: Date.now(),
             primaryKey: '2'
