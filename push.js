@@ -8,11 +8,33 @@ let vapidKeys = { publicKey:
    push.setVapidDetails('mailto:info@studionaut.com', vapidKeys.publicKey, vapidKeys.privateKey)
 
    let sub = {
-    endpoint:"https://fcm.googleapis.com/fcm/send/fDDa28Guqpo:APA91bFmtpp7E3x0BAZHOEJy-MBgdUqQsljPRNpZRjPSsHJWJ9OpZEoPjYN0Hj5FZDXNwHGELoUc_vEt9vvcCZIY9SgvIaaPPmoqCZaqsvA5AZmAiIRcqNwiYLKA8aWrgzpYVUGbFvHc",
-    expirationTime:null,
-    keys:{
-        p256dh:"BOXfY1-H_DSRAZ2KToeKzr9_N3hUO_2VWO2OkneTSW_eUDs4OZOZ_adP_AeWf6hQ88uTYwfj5AjV5N-02OOJKVQ",
-        auth:"XDo5rFFdr--GDamSU9TXaA"
-    }
+
+
+    //goran crome localhost
+
+        endpoint:"https://fcm.googleapis.com/fcm/send/e9kNQJTQLws:APA91bHpv4KH7ZvxoSrIy_kE3N41KCypcFJ8WV2j9sCjJrOICDDiGQ6MR3-A4co6hf72501QkUQWltLDEKTQVvv_7asWO2LTAhOsX54iZPDO-YdgbC3O4PwGAPjX9sRpSo9eroIMKPYR",
+        expirationTime:null,
+        keys:{
+            p256dh:"BCROIc2Jz3Ctd0A-r-i8yqDcrNQNvm8Mirb0h8Q0rBBL8CQyhXwRPsjBoix96_TviHUL9fYaStefJcEjVpTRdSY",
+            auth:"0JcCl8g5g-g_4dcgptrxSw"}
+
+
+       // goran crome
+    // endpoint:"https://fcm.googleapis.com/fcm/send/fDDa28Guqpo:APA91bFmtpp7E3x0BAZHOEJy-MBgdUqQsljPRNpZRjPSsHJWJ9OpZEoPjYN0Hj5FZDXNwHGELoUc_vEt9vvcCZIY9SgvIaaPPmoqCZaqsvA5AZmAiIRcqNwiYLKA8aWrgzpYVUGbFvHc",
+    // expirationTime:null,
+    // keys:{
+    //     p256dh:"BOXfY1-H_DSRAZ2KToeKzr9_N3hUO_2VWO2OkneTSW_eUDs4OZOZ_adP_AeWf6hQ88uTYwfj5AjV5N-02OOJKVQ",
+    //     auth:"XDo5rFFdr--GDamSU9TXaA"
+    // }
+
+    //    Alen crome
+        // endpoint:
+        // "https://fcm.googleapis.com/fcm/send/cYVrconrQ1I:APA91bEgO2hvL0BMXd6DQ__iQMM3rpqn6VUHIH5DY8KZtVJmQtW-COZkJ8FIFh2ki8txJZeKUmGW9jhlZpeYJ1c4tyIVlm--riKrmaZW0lrZEU3dEs6lR2isLJZaGuIcrEW2QdoUdb_a",
+        // expirationTime:null,
+        // keys:{
+        //     p256dh:"BHrPJnnBH_gAA2ZIGj7gC63ppbOpLawj5cJ3SXvkEr2HVOrccOO_rwdgOIxtO4nUF2Yt9Nn6OVDo7VJIQlUKwTI",
+        //     auth:"SYyK34PR1XQ_Xee0_57iHw"}
+
+
    };
    push.sendNotification(sub, 'test message');

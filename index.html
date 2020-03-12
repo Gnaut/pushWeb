@@ -22,10 +22,14 @@ async function subscribe(){
         applicationServerKey:'BLbtlS7we5fzkDbai-k7Co9wu_tWfiD5sZ-C2XlWZ3Rrd5we_XcMdTcvZMlVAYOhzNeM7zLtJ1Y9Av9RNcpQTRI'
     })
     console.log(JSON.stringify(push))
+    document.getElementById("p1").innerHTML =  JSON.stringify(push);
 }
 
-
 </script>
+
+
+
+    <p style="border: 1px solid #777; padding: 10px;" id="p1">Tukaj podatki identifikacije stranke</p>
 
 </body>
 </html>
