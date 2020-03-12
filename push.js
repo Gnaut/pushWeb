@@ -9,11 +9,18 @@ let vapidKeys = { publicKey:
 
    let sub = {
 
-    endpoint:"https://fcm.googleapis.com/fcm/send/co9anS_P_lM:APA91bEZXBtkCPXG4A6uDvdmDH5QlZsD0WScLlmfxXtsj3P5XEz6mjYdp-KHd85W7mtA7b1vlMVGSMmoMr7VebVvBarf36SXYbFKlu4k3rTEQUUpTKO7t3sm1Hn19xPk7m8kZ-QPFNpG",
-    expirationTime:null,
-    keys:{
-        p256dh:"BJqbxU7_JGfO0w-0c9MGSW3oMPTVU9ta6Jqu4vEUdq_C2QGWL2dH2xgBa94ulYF2YQWA_Hd3eUm2ZDgmOcLYbiE",
-        auth:"92EILkXc8H8n8OExPFPT8Q"} 
+    // endpoint:"https://fcm.googleapis.com/fcm/send/co9anS_P_lM:APA91bEZXBtkCPXG4A6uDvdmDH5QlZsD0WScLlmfxXtsj3P5XEz6mjYdp-KHd85W7mtA7b1vlMVGSMmoMr7VebVvBarf36SXYbFKlu4k3rTEQUUpTKO7t3sm1Hn19xPk7m8kZ-QPFNpG",
+    // expirationTime:null,
+    // keys:{
+    //     p256dh:"BJqbxU7_JGfO0w-0c9MGSW3oMPTVU9ta6Jqu4vEUdq_C2QGWL2dH2xgBa94ulYF2YQWA_Hd3eUm2ZDgmOcLYbiE",
+    //     auth:"92EILkXc8H8n8OExPFPT8Q"} 
+
+    //goran firefox pc
+    
+        endpoint:"https://updates.push.services.mozilla.com/wpush/v2/gAAAAABeakIc6oXI6Z4Q9xZfquOZInp_HkfAQF_jpCcGMR5aANBu7XD7r7tStKuW21qu9OHHgz-oCMzKHgkmH283GfZSzUHjIuASG0JtHt9Wfmb6g5CwSILh3sK9KuIwoQglG57bqKjJS9e7Dvars13JZ4izEtWy3vSivumI4hkOpMONb0PIPF8",
+        keys:{
+            auth:"jfnqtYnKIByPtUC-zq1Q2w",
+            p256dh:"BNBhH711QtRT5TRWVa92ifdewfjk2sOIUbOfpYZ_aQgaYWm8p80RvF6MSEAr3ftIfNlhtBlq0C82EkcUADAo-Zs"}
 
 
 
